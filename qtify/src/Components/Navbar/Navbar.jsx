@@ -4,7 +4,6 @@ import Logo from "../Logo/Logo";
 import Search from "../Search/Search";
 import styles from "./Navbar.module.css";
 import Button from "../Button/Button";
-import Givefeedback from "../Feedback/Feedack";
 
 function Navbar(searchData) {
   return (
