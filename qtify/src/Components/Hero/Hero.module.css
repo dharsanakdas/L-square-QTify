@@ -1,0 +1,16 @@
+:root {
+  --qtify-green: #34C94B; /* replace with figma exact code */
+  --color-black: #121212;
+
+}
+
+.hero {
+  background-color: var(--color-black);
+  height: 270px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+  color: #FFFFFF;
+}
