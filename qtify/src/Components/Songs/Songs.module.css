@@ -1,0 +1,29 @@
+.songsWrapper {
+  width: 100%;
+  margin-top: 32px;
+  padding: 0 32px;
+}
+
+.tabsArea {
+  margin-top: 12px;
+  margin-bottom: 26px;
+}
+
+.genreTab {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: none;
+  padding: 6px 18px !important;
+  color: #ffffff !important;
+  opacity: 0.6;
+  transition: color 0.2s ease, opacity 0.2s ease, border-bottom 0.2s ease;
+  border-bottom: 3px solid transparent; 
+  padding-bottom: 8px !important; 
+  min-width: 48px;
+}
+
+.activeTab {
+  opacity: 1;
+  /* color: #34c94b !important;               */
+  border-bottom: 3px solid #34c94b !important; 
+}

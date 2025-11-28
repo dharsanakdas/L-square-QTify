@@ -1,0 +1,15 @@
+.sectionContainer {
+  margin: 40px 32px;
+}
+.sectionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+}
+.title {
+  color: #fff;
+  font-size: 20px;
+}
+.sectionBody {
+}

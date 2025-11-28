@@ -1,0 +1,17 @@
+.contentArea {
+  margin-top: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 16px;
+  margin: 0 40px; 
+}
+
+.carouselWrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0 40px;
+}

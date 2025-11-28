@@ -1,18 +1,27 @@
 import React from "react";
 import Navbar from "../Navbar/Navbar";
 import Hero from "../Hero/Hero";
-// import Hero from "../Hero/Hero";
-// import Logo from "../Logo/Logo";   // Only needed if you use Logo directly here
-
+import TopAlbums from "../TopAlbums/TopAlbums";
+import NewAlbums from "../NewAlbums/NewAlbums";
+import Songs from "../Songs/Songs";
 function Homepage() {
   return (
-    <div>
+    <div style={{ backgroundColor: "#121212", minHeight: "100vh"}}>
       {/* Navigation Bar */}
       <Navbar />
 
       {/* Hero Section */}
       <Hero />
       {/* <Hero /> */}
+
+      <div style={{ padding: "0 32px" }}>
+
+      <TopAlbums />
+
+      <NewAlbums />
+</div>
+
+      <Songs />
     </div>
   );
 }

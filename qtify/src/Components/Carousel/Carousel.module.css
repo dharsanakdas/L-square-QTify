@@ -1,0 +1,45 @@
+.carouselWrapper {
+  position: relative;
+  width: 100%;
+  overflow: visible;
+  gap: 1px;
+}
+
+.swiperBox {
+  width: 100%;
+}
+
+.swiperBox > div {
+  display: flex !important;
+}
+
+.swiper-slide {
+  width: auto !important;
+}
+
+.navLeft,
+.navRight {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: none;
+  /* background-size: 55%; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color:#34C94B;
+  cursor: pointer;
+  z-index: 20;
+}
+
+.navLeft {
+  left: -18px;
+  background-image: url("../../assets/left.png");   
+}
+
+.navRight {
+  right: -18px;
+  background-image: url("../../assets/right.png");
+}
